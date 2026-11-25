@@ -1,5 +1,5 @@
 # SOC Detection Lab - Professional Documentation
----
+
 ## Sumary
 1. 
 2.
@@ -10,11 +10,18 @@
 7.
 ---
 ##Project Overview
-This project is a fully isolated, virtualized Security Operations Center (SOC) Simulation Lab, designed to replicate real-world detection engineering, incident response, and threat hunting workflows. It integrates core SOC components:
+This project is a fully isolated, virtualized Security Operations Center (SOC) Simulation Lab, designed to replicate real-world detection engineering, incident response, and threat hunting workflows.
+It integrates core SOC components:
 
-✅ Network segmentation via pfSense ✅ Detection tooling (Wazuh, Snort) ✅ Security Management environment ✅ Target hosts for controlled attacks ✅ Adversary simulation for testing detection efficacy
+✅ Network segmentation via pfSense
+✅ Detection tooling (Wazuh)
+✅ Security Management environment
+✅ Target hosts for controlled attacks
+✅ Adversary simulation for testing detection efficacy
 
-Network Architecture
+---
+
+##Network Architecture
 Virtualization Platform: VirtualBox with isolated VLAN configuration
 pfSense Firewall: Central segmentation and traffic control
 VLANs:
